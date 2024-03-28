@@ -1,0 +1,19 @@
+.pendidikan__container {
+  @apply bg-yellow-300 h-screen p-4 pt-16
+}
+
+.pendidikan__layer {
+  @apply h-full bg-white p-10 flex items-start justify-start gap-10
+}
+
+.pendidikan__select {
+  @apply w-[340px] text-white py-2 px-6 rounded-md appearance-none text-base relative bg-transparent
+}
+
+.pendidikan__select option {
+  @apply bg-white text-black
+}
+
+.pendidikan__select optgroup {
+  @apply bg-red-500
+}

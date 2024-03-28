@@ -1,0 +1,23 @@
+.dashboard {
+  @apply h-screen flex items-center justify-center flex-col py-10
+}
+
+.dashboard__title {
+  @apply flex items-center justify-center flex-col text-xl md:text-4xl mb-6 md:mb-10 text-center
+}
+
+.dashboard__navigation {
+  @apply container mx-auto flex justify-center max-w-[800px] flex-wrap gap-4
+}
+
+.navigation {
+  @apply p-2 transition-all bg-slate-200 hover:bg-green-300
+}
+
+.navigation__image {
+  @apply w-[240px] h-[160px] md:w-[300px] md:h-[180px] object-cover object-center rounded-md
+}
+
+.navigation__label {
+  @apply text-center pt-2 font-bold text-base md:text-xl
+}

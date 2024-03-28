@@ -1,0 +1,31 @@
+.avatar__container {
+  @apply bg-yellow-300 h-screen p-4 pt-16
+}
+
+.avatar__layer {
+  @apply h-1/2 min-h-[500px] bg-green-100 flex flex-col items-center justify-start py-10 px-6
+}
+
+.avatar__form {
+  @apply flex flex-col items-center justify-start w-full
+}
+
+.avatar__form-input {
+  @apply mb-4 w-full text-lg py-2 px-4 rounded-md border border-gray-400
+}
+
+.avatar__form-button {
+  @apply mb-4 capitalize bg-green-600 text-white px-4 py-2 rounded-md transition-all duration-500 hover:shadow-lg hover:shadow-green-400
+}
+
+.avatar__img {
+  @apply bg-white border-gray-300 border-2 rounded-full h-[304px] w-[304px]
+}
+
+.avatar__img--load {
+  @apply absolute inset-0 z-10 bg-white border-gray-300 border-2 rounded-full h-[304px] w-[304px] flex items-center justify-center
+}
+
+.avatar__img-label {
+  @apply text-center font-semibold
+}

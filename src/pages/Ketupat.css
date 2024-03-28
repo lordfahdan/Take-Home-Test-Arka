@@ -1,0 +1,19 @@
+.ketupat__container {
+  @apply h-screen bg-[#FFFF99] flex flex-col items-center justify-center font-ketupat relative
+}
+
+.ketupat {
+  @apply grid grid-cols-3 justify-center gap-[2px] items-center rotate-45 mb-20
+}
+
+.ketupat__tile {
+  @apply bg-[#009900] w-10 h-10 block
+}
+
+.ketupat__tile:nth-child(even) {
+  @apply bg-[#97CF3D]
+}
+
+.greet {
+  @apply text-center text-xl font-bold capitalize mb-4
+}
